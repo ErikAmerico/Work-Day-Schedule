@@ -31,5 +31,21 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
+
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    const value = localStorage.getItem(key);
+    const divs = document.getElementsByTagName('div');
+    for (let j = 0; j < divs.length; j++) {
+      const id = divs[j].id;
+      if (id == key) {
+        const textarea = divs[j].querySelector('textarea');
+        textarea.value = value;
+      }
+
+    }
+
+  };
+
   // TODO: Add code to display the current date in the header of the page.
 });
