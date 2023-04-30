@@ -66,7 +66,7 @@ $(function () {
   // TODO: Add code to display the current date in the header of the page.
   function dayTime() {
     const date = dayjs();
-    $('#currentDay').text(date.format('MMMM D, YYYY hh:mm:ss'))
+    $('#currentDay').text(date.format('MMMM D, YYYY'))
   }
   setInterval(dayTime, 1000);
 
