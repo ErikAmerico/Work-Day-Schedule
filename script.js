@@ -28,7 +28,7 @@ $(function () {
   // current hour in 24-hour time?
   const divs = document.getElementsByTagName('div')
   for (let i = 0; i < divs.length; i++) {
-    const idTime = divs[i].getAttribute('id')
+    const idTime = parseInt(divs[i].getAttribute('id'))
     const time = dayjs();
     //alert(time.format('H'))
     console.log(idTime)
