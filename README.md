@@ -4,8 +4,7 @@ Welcome! This is an application to track daily tasks. When a task is entered int
 
 ## About this page
 Here is an example screen shot of the webpage:
-!(Assets/05-third-party-apis-homework-demo.gif)
-
+![Alt text](Assets/IMG-3458.jpg)
 
 
 ### Technologies used
