@@ -4,7 +4,7 @@ Welcome! This is an application to track daily tasks. When a task is entered int
 
 ## About this page
 Here is an example screen shot of the webpage:
-![image]()
+!(Assets/05-third-party-apis-homework-demo.gif)
 
 
 
@@ -14,9 +14,9 @@ Here is an example screen shot of the webpage:
 - Javascript
 
 ### Credits due
--UNH/edx bootcamp provided HTML and CSS.
+- UNH/edx bootcamp provided HTML and CSS.
 - StackOverflow
 - Google
 
 #### Link to Portfolio website:
-- https://erikamerico.github.io/Code-Assessment/
+- https://erikamerico.github.io/Work-Day-Schedule/
